@@ -35,10 +35,6 @@ os.system("cls")
 print("Summary:"+"\n"+"Name: "+name+"\n"+"Favorite Food: "+favfood+"\n"+"Favorite Drink: "+favdrink+"\n"+"Favorite Video Game: "+favgame)
 print("AI Comments Loading...")
 time.sleep(4)
-if name.find("Tejas") > -1:
- print("(AI COMMENT) Oh, so the owner is rolling around my code?")
-if name.find("Neelan") > -1:
- print("(AI COMMENT) wsg brooo")
 if favgame.find("Zelda") > -1:
  print("(AI COMMENT) Fun fact: the owner likes Zelda too!")
 if favfood.find("Pizza") > -1:
